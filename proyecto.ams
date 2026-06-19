@@ -1,11 +1,13 @@
 	.data
-msg:    .asciiz "hola mundo y Jacqueline\n"
+msg:    .asciiz "hola mundo y Jacqueline y gato\n"
+msg2:    .asciiz "hola Anan"
+
 
 	.text
 	.globl main
 main:
 	li $v0, 4
-	la $a0, msg
+	la $a0, msg2
 	syscall
 
 	li $v0, 10
