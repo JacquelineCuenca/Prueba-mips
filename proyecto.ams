@@ -1,6 +1,6 @@
 	.data
 msg:    .asciiz "hola mundo y Jacqueline y gato\n"
-msg2:    .asciiz "hola Anan"
+msg2:    .asciiz "hola Ana y Pedro"
 
 
 	.text
